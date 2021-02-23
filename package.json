@@ -1,0 +1,20 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "myserver",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node js/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c0olstory/onlinestore.git"
+  },
+  "author": "vadim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c0olstory/onlinestore/issues"
+  },
+  "homepage": "https://github.com/c0olstory/onlinestore#readme"
+}
