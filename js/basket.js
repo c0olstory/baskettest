@@ -20,15 +20,24 @@ class List {
    }
 
    fetchGoods () {
-      const url = 'http://localhost:3000/database/items.json'
+      // const url = 'http://localhost:3000/database/items.json'
+      const url = 'https://baskettest.herokuapp.com/database/items.json'
+
+
       return fetch(url)
    }
 
    showMore() {
+      // const url = [
+      //    'http://localhost:3000/database/items1.json',
+      //    'http://localhost:3000/database/items2.json',
+      //    'http://localhost:3000/database/items3.json'
+      // ]
+
       const url = [
-         'http://localhost:3000/database/items1.json',
-         'http://localhost:3000/database/items2.json',
-         'http://localhost:3000/database/items3.json'
+         'https://baskettest.herokuapp.com/database/items1.json',
+         'https://baskettest.herokuapp.com/database/items2.json',
+         'https://baskettest.herokuapp.com/database/items3.json'
       ]
       
       console.log(fetch(url))
