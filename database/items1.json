@@ -1,0 +1,7 @@
+{
+   "data": [
+      {"name": "Shirt1", "price": 150, "img": "https://picsum.photos/seed/4/200", "value": 1},
+      {"name": "Socks1", "price": 250, "img": "https://picsum.photos/seed/5/200", "value": 1},
+      {"name": "Jacket1", "price": 350, "img": "https://picsum.photos/seed/6/200", "value": 1}
+   ]
+}
