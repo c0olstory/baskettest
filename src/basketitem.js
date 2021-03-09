@@ -1,5 +1,5 @@
 import Button from './button';
-
+import {BasketInstance} from './shop'
 
 export default class BasketItem {
    _name = '';

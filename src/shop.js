@@ -91,6 +91,7 @@ class List {
 }
 
 const BasketInstance = new Basket();
+export {BasketInstance};
 
 new List(BasketInstance);
 
