@@ -1,4 +1,4 @@
-import BasketItem from './basketItem';
+import BasketItem from './basketitem';
 
 
 
