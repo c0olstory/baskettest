@@ -1,0 +1,40 @@
+{
+  "name": "webserverr",
+  "version": "1.0.0",
+  "description": "myserverr",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./js/server.js",
+    "build": "webpack",
+    "dev": "webpack serve --hot --config webpack.dev.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c0olstory/baskettest.git"
+  },
+  "author": "vadim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c0olstory/baskettest/issues"
+  },
+  "homepage": "https://github.com/c0olstory/baskettest#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.1.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  },
+  "dependencies": {
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12",
+    "vuex": "^3.6.2"
+  }
+}
