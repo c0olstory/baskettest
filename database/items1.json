@@ -1,0 +1,25 @@
+{
+
+   "1": {
+      "name": "Shirt", 
+      "price": 150, 
+      "img": "https://picsum.photos/seed/1/200", 
+      "value": 1,
+      "id": 1
+   },
+   "2": {
+      "name": "Socks", 
+      "price": 250, 
+      "img": "https://picsum.photos/seed/2/200", 
+      "value": 1,
+      "id": 2
+   },
+   "3": {
+      "name": "Jacket", 
+      "price": 350, 
+      "img": "https://picsum.photos/seed/3/200", 
+      "value": 1,
+      "id": 3
+   }
+
+}
