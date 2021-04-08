@@ -36,14 +36,13 @@ app.get('/itemslist/:page', (req, res) => {
 });
 
 
-
-// app.get('/basketlist', (req, res) => {
-//    console.log(res, "server.js basketlist app")
-//    fs.readFile('./database/basket/basket.json', 'utf8', (err, data) => {
-//       console.log(data, "server.js data2")
-//       res.send(data);
-//    });
-// });
+app.get('/basketlist', (req, res) => {
+   // console.log(res, "server.js basketlist app")
+   fs.readFile('./database/basket/basket.json', 'utf8', (err, data) => {
+      console.log(data, "server.js data2")
+      res.send(data);
+   });
+});
 
 
 
@@ -73,8 +72,8 @@ app.post('/basketlist', (req, res) => {
    // const offset = 6;
    const filePath = `./database/basket/basket.json`
    fs.readFile(filePath, 'utf8', (err, data) => {
-      // const list = JSON.parse(data || {});
-      const list = data 
+      const list = JSON.parse(data || {});
+      // const list = data 
       const amountOfData = Object.keys(list).length;
       // const newID = offset + amountOfData + 1;
       const newID = amountOfData + 1;
